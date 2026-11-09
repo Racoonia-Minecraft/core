@@ -1,9 +1,9 @@
 {
 	"display": {
-		"title": "Racoonia's core",
-		"description": "Racoonia's core Datapack",
+		"title": "Racoonia Core",
+		"description": "Racoonia's core datapack",
 		"icon": {
-			"id": "compass"
+			"id": "minecraft:compass"
 		},
 		"announce_to_chat": false,
 		"show_toast": false
