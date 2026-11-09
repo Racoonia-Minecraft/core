@@ -12,7 +12,7 @@ tellraw @s {"text": "UNINSTALL DATAPACK","color": "red","hover_event": {"action"
 
 tellraw @s {"text": "                                ","color": "gray","strikethrough": true}
 
-function racoonia_core:sounds/click
+function _racoonia_core:sounds/click
 
 # Reset Trigger
 scoreboard players set @s racoonia_core.config 0

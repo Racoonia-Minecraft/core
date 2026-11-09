@@ -5,5 +5,5 @@ scoreboard objectives add racoonia_core.installed dummy
 execute unless score #racoonia_core racoonia_core.installed matches 1 run function racoonia_core:config/install
 
 # Reload 1 Second Loop
-schedule clear racoonia_core:loops/1_second
-function racoonia_core:loops/1_second
+schedule clear _racoonia_core:loops/1_second
+function _racoonia_core:loops/1_second

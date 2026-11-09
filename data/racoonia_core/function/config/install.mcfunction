@@ -1,6 +1,6 @@
 tellraw @a [{"text":"Racoonia's core ","color": "green"},{"text": "installed.","color": "green"}]
 
-function racoonia_core:sounds/click
+function _racoonia_core:sounds/click
 
 # Add Triggers
 scoreboard objectives add racoonia_core.about trigger {"text": "About","color": "green"}

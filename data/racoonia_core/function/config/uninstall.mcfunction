@@ -1,6 +1,6 @@
 tellraw @a [{"text":"Racoonia's core ","color": "green"},{"text": "uninstalled.","color": "red"}]
 
-function racoonia_core:sounds/click
+function _racoonia_core:sounds/click
 
 # Remove Triggers
 scoreboard objectives remove racoonia_core.about
