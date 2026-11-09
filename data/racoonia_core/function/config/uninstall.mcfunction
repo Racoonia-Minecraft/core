@@ -1,21 +1,13 @@
-tellraw @a [{"text":"Racoonia's core ","color": "green"},{"text": "uninstalled.","color": "red"}]
+tellraw @a [{"text":"Racoonia Core ","color": "green"},{"text": "uninstalled.","color": "red"}]
 
 function _racoonia_core:sounds/click
-
-# Remove Triggers
-scoreboard objectives remove racoonia_core.about
-scoreboard objectives remove racoonia_core.config
-
-# Remove New Player Joined Flag
-scoreboard objectives remove racoonia_core.new_player_joined
 
 # Remove Install Flag
 scoreboard objectives remove racoonia_core.installed
 
-# Math
+# Util
+scoreboard objectives remove racoonia.temp
 scoreboard objectives remove racoonia.math
-
-# Random
 scoreboard objectives remove racoonia.random
 
 # Death Detection
